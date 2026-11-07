@@ -6,8 +6,8 @@
 
 ## 快速开始
 
-1. 下载 [`timer.html`](timer.html)（就这一个文件，无任何外部依赖、不联网、不上报任何数据）
-2. 双击它，用浏览器打开即可使用
+- **在线直接用**：<https://cyanthracene.github.io/countdown-timer/>（GitHub Pages 托管，无需下载）
+- **本地用**：下载 [`timer.html`](timer.html)（就这一个文件，无任何外部依赖、不联网、不上报任何数据），双击用浏览器打开即可
 
 想要独立窗口（无地址栏 / 标签栏）和桌面图标，见下面的「使用」。
 
@@ -64,6 +64,7 @@
 ## 文件说明
 
 - `timer.html` —— 应用本体（单文件，无任何外部依赖，可单独拷走使用）
+- `index.html` —— 只为 GitHub Pages 准备的跳转页（打开首页自动跳到 `timer.html`），本机使用不需要它
 - `timer-icon.ico` —— 应用图标（桌面快捷方式使用，由 `make_icon.py` 生成）
 - `create-shortcut.cmd` / `create-shortcut.ps1` —— 生成桌面快捷方式
 - `make_icon.py` —— 重新生成图标的脚本（需要 pillow + numpy）
