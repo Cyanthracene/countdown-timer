@@ -1,0 +1,11 @@
+# 自测脚手架
+_t/
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Python
+__pycache__/
+*.pyc
